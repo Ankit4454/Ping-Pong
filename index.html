@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping-Pong</title>
+    <style>
+        body{
+            background-color: dimgray;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+        #time{
+            position: absolute;
+            font-size: 2rem;
+            color: #FFF;
+            background-color: black;
+            top: 14vh;
+            left: 47.5vw;
+        }
+        button{
+            position: absolute;
+            top: 52vh;
+            left: 46vw;
+            font-size: 1rem;
+            padding: 8px 30px;
+            color: black;
+            background-color: #FFF;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+    
+    </style>
+</head>
+<body>
+   <canvas id="pong" width="800" height="532"></canvas>
+   <div id="time"></div>
+   <script src="pong.js"></script>
+</body>
+</html>
